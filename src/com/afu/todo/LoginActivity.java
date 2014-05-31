@@ -38,7 +38,7 @@ import android.widget.Toast;
  *   1.  type name and passwd - press login, 
  *   2.  type name and passwd - press register - for a name that is new to Kii.
  *   
- * Updated my app to store credentials and dat in the Kii cloud
+ * Updated my app to store credentials and data in the Kii cloud
  *    Peter van der Linden, May 24 2014    
  */
 
