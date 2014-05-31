@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/footernested" android:orientation="horizontal"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true"
+	android:layout_alignParentRight="true">
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingRight="10dp"
+		android:contentDescription="@string/content_description" android:src="@drawable/kii"
+		 />
+
+	<Button android:id="@+id/btnAddItem" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:onClick="addTodoItem"
+		android:text="@string/add" />
+
+	<EditText android:id="@+id/etNewItem" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:hint="@string/enter"
+		android:ems="10">
+
+		<requestFocus />
+	</EditText>
+
+</LinearLayout>
